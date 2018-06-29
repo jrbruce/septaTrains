@@ -108,6 +108,6 @@ workflows:
   version: 2
   test_and_static:
     jobs:
-      - build-enterprise
+      #- build-enterprise
       - build-developer
-      - static-analysis
+      #- static-analysis
